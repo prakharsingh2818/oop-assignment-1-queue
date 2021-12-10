@@ -1,6 +1,6 @@
 # oop-assignment-1-queue
 
-###The project is a modifies implementation of Queue data structure using scala language. It contains 3 scala classes and one scala object and ons scala trait
+### The project is a modifies implementation of Queue data structure using scala language. It contains 3 scala classes and one scala object and ons scala trait
 
 1. **Queue**
   - This trait has 2 methods - enqueue and dequeue. 
@@ -18,5 +18,5 @@
 5. **QueueTest**
   - This is a test class which makes use of AnyFlatSpec style of ScalaTest 
   
-  ###The project uses ListBuffer class of Scala library to implement Queue functionality
+  ### The project uses ListBuffer class of Scala library to implement Queue functionality
   
