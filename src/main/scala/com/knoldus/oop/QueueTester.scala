@@ -5,10 +5,18 @@ import scala.io.StdIn
 import scala.util.control.Breaks.{break, breakable}
 
 object QueueTester extends App{
+  //Actual Queue to store data
   var queue = new ListBuffer[Int]
+
+  //Variable to giver user choice whether to enqueue, dequeue, print or exit from the program
   var choice : Int = 0
+
+  //To store the element to be added to the queue
   var element : Int = 0
+
+  //To store whether to use SquareQueue or DoubleQueue
   var queueChoice : Queue = _
+
   println("***WELCOME***")
   breakable {
     while(true) {

@@ -6,9 +6,16 @@ import scala.collection.mutable.ListBuffer
 
 class QueueTest extends AnyFlatSpec {
   behavior of "DoubleQueue"
+  
   val doubleQueue = new DoubleQueue
+
+  //actualQueue stores queue formed due to program execution
   var actualQueue : ListBuffer[Int] = ListBuffer[Int]()
+
+  //expectedQueue stores queue as it should be
   var expectedQueue : ListBuffer[Int] = ListBuffer[Int]()
+
+  //To store element to be inserted
   var elementToBeInserted : Int = 0
 
   it should "enqueue double of the element inserted" in {
