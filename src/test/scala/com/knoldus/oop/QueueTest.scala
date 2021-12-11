@@ -6,7 +6,7 @@ import scala.collection.mutable.ListBuffer
 
 class QueueTest extends AnyFlatSpec {
   behavior of "DoubleQueue"
-  
+
   val doubleQueue = new DoubleQueue
 
   //actualQueue stores queue formed due to program execution
